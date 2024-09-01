@@ -1,3 +1,4 @@
+/*usei o elemento header para o cabeçalho*/
 header {
     background-color: #2EA3CA ;
     color: #fff;
@@ -10,7 +11,7 @@ header {
     grid-column-start: 1;
     grid-column-end: 12;
 }
-
+/*Usei o elemento nav para o menu e desloquei a esqueda*/
 nav {
     background-color: white;
     width: 20%;
@@ -20,6 +21,7 @@ nav {
     float: left;
 }
 
+/*Usei container para formar os blocos do menu*/
 .container {
     
 }
@@ -27,7 +29,7 @@ nav {
 .form {
     padding:15px;
 }
-
+/*utilizei elementos div para alocar os links do menu*/
 div {
     border: 1px solid black;
     padding: 5px;
@@ -40,7 +42,7 @@ div {
    
 }
 
-
+/*utilizei o elemento section para alocar o texto da página*/
 section {
     background-color: white;
     border: solid 1px black;
@@ -65,7 +67,7 @@ h3 {
     margin-left: 10%
 }
 
-
+/*Utilizei o elemento footer para alocar o rodapé*/
 footer {
     background-color: #333;
     color: #fff;
@@ -75,7 +77,7 @@ footer {
     width: 100%;
     bottom: 0;
 }
-
+/*CSS do formulário de contato*/
 input[type="text"], input[type="email"], textarea {
     width: 100%;
     padding: 10px;
