@@ -97,3 +97,8 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.centro {
+    float: right;
+    margin-right: 20%;
+}
